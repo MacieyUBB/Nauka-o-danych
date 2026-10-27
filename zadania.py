@@ -403,3 +403,13 @@ print(
     f"{kowariancja_pandas:.3f}. Zależność ma kierunek {kierunek}; wartości są "
     "rozproszone w stopniu opisanym przez odchylenia standardowe."
 )
+
+
+print("\nPliki dostępne w repozytorium projektu:")
+print("- zadania.py — kod wszystkich zadań i analiza danych.")
+print("- README.md — opis projektu w formacie Markdown.")
+print("- README.txt — opis projektu w formacie tekstowym.")
+print("- titanic_po_analizie.csv — oczyszczone dane z kolumnami obliczonymi.")
+print("- zrzuty/ — zrzuty ekranu dokumentujące wyniki analizy.")
+print("- .git/ — lokalna historia repozytorium Git.")
+print("Repozytorium GitHub: https://github.com/MacieyUBB/Nauka-o-danych")
