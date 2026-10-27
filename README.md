@@ -18,7 +18,7 @@ Zad_1/
 │   ├── 04_histogram_wieku.jpg
 │   └── 05_statystyki_koncowe.jpg
 └── .git/
-```s
+```
 
 Folder `.git` jest lokalną częścią repozytorium i zawiera historię commitów.
 Nie jest wyświetlany na stronie GitHub jako zwykły folder.
