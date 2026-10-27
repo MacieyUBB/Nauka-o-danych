@@ -378,7 +378,7 @@ print(
 print(
     f"Interpretacja korelacji i kowariancji: korelacja wynosi "
     f"{korelacja_pandas:.3f}, więc zależność wieku i ceny biletu jest bardzo "
-    f"słaba i {kierunek}; wiek prawie nie wyjaśnia ceny biletu."
+    f"słaba i ma kierunek {kierunek}; wiek prawie nie wyjaśnia ceny biletu."
 )
 
 
@@ -400,6 +400,6 @@ print(
 )
 print(
     f"Korelacja wieku z ceną biletu wynosi {korelacja_pandas:.3f}, a kowariancja "
-    f"{kowariancja_pandas:.3f}. Zależność jest {kierunek}; wartości są "
+    f"{kowariancja_pandas:.3f}. Zależność ma kierunek {kierunek}; wartości są "
     "rozproszone w stopniu opisanym przez odchylenia standardowe."
 )
