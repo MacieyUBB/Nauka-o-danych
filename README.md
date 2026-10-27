@@ -3,6 +3,26 @@
 Autor: **Maciej Grochowski**  
 Numer albumu: **66190**
 
+## Struktura projektu
+
+```text
+Zad_1/
+├── zadania.py
+├── README.md
+├── README.txt
+├── titanic_po_analizie.csv
+├── zrzuty/
+│   ├── 01_pierwsze_10_wierszy.jpg
+│   ├── 02_informacje_o_ramce.jpg
+│   ├── 03_wykres_tabeli_przestawnej.jpg
+│   ├── 04_histogram_wieku.jpg
+│   └── 05_statystyki_koncowe.jpg
+└── .git/
+```s
+
+Folder `.git` jest lokalną częścią repozytorium i zawiera historię commitów.
+Nie jest wyświetlany na stronie GitHub jako zwykły folder.
+
 ## Opis
 
 Plik [zadania.py](./zadania.py) zawiera realizację zadań 1–49 z części A i B
@@ -44,6 +64,9 @@ Przy pierwszym uruchomieniu Kaggle Hub pobierze zbiór danych i zapisze go
 w lokalnym katalogu pamięci podręcznej. Skrypt wyświetla wyniki kolejnych
 operacji, informacje o ramce danych, statystyki, tabele oraz dwa wykresy.
 
+Przy uruchamianiu skryptu należy zamknąć okna wykresów, aby program mógł
+przejść do kolejnych zadań i wyświetlić końcowe statystyki.
+
 ## Zakres zadań
 
 - **1–5:** import pandas, tworzenie ramek, wczytanie danych i transpozycja,
@@ -67,3 +90,24 @@ titanic_po_analizie.csv
 
 Jest to kopia oczyszczonej ramki danych z dodatkowymi kolumnami obliczonymi
 w trakcie analizy.
+
+## Zrzuty ekranu
+
+Folder `zrzuty` zawiera dowody wykonania analizy:
+
+- `01_pierwsze_10_wierszy.jpg` — wynik `df.head(10)`,
+- `02_informacje_o_ramce.jpg` — wynik `df.info()`,
+- `03_wykres_tabeli_przestawnej.jpg` — średnia cena biletu według płci
+  i klasy,
+- `04_histogram_wieku.jpg` — rozkład wieku pasażerów,
+- `05_statystyki_koncowe.jpg` — wyniki miar statystycznych i podsumowanie.
+
+## Repozytorium projektu
+
+Pełny projekt, wszystkie pliki, zrzuty ekranu oraz historia commitów są
+dostępne w repozytorium GitHub:
+
+[Otwórz repozytorium Macieja Grochowskiego o nicku MacieyUBB w MacieyUBB/Nauka-o-danych na GitHubie](https://github.com/MacieyUBB/Nauka-o-danych)
+
+Historia zawiera osobne commity dotyczące kodu, dokumentacji, danych
+wynikowych, zrzutów ekranu i poprawek interpretacji wyników.
